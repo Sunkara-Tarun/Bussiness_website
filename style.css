@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+}
+.parent_container {
+    background-color: black;
+    position: relative;
+}
+.Hearder{
+    display: flex;
+    background-color: white;
+    height: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.3rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+span {
+    color: rgb(23, 186, 215);
+}
+/* for rating star color */
+.body_container {
+  
+    background-color: black;
+    color: white;
+    overflow-x: auto;
+    width: 75%;
+    /* border: 3px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.ratings_contaier {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    /* width: auto; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+
+}
+.checked {
+    color: orange;
+}
+.Heading_6 {
+background-color: rgb(25, 25, 172);
+border: 2px dotted white;
+width: 40%;
+padding: 10px;
+text-align: center;
+border-radius: 8px;
+margin: auto;
+}
+.p_1_learn {
+    text-align: center;
+    padding: 5px;
+    /* width: 30rem; */
+    margin: auto;
+}
+.p_2_build {
+    margin: auto;
+    /* width:40rem; */
+    text-align: center;
+}
+.watch_p_2 {
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.video_style {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+}
+.p_3 {
+    font-size: 23px;
+    text-align: left;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.link_direction_1 {
+    background-image: linear-gradient(to right, rgb(21, 100, 204), rgb(208, 52, 208), rgb(235, 177, 71));
+    width: 100%;
+    float: right;
+    border: 2px dotted white;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile_container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.profile {
+    border: 2px dotted black;
+    border-radius: 10px;
+    color: black;
+    width: 320px;
+    height: 160px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.h2_inside_course {
+    text-align: center;
+    width: 100%;
+}
+.chanels {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    column-gap:15px;
+}
+.grid-item {
+    border-radius: 5px;
+    text-align: left;
+    padding: 7px;
+    border: 2px dotted white;
+
+}
+.button_container {
+    display: grid;
+    grid-gap: 18px;
+    font-size: 25px;
+    grid-template-columns: auto auto auto;
+}
+.items_jobs {
+    background-color: rgb(0, 153, 255);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-align: left;
+
+}
+.list {
+    text-align: left;
+    list-style-type: none;
+    font-size:21px;
+}
+.trainer_logo {
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button_2_anchor {
+    text-decoration: none;
+    padding: 4px;
+    float: right;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    border-radius: 10px;
+    border: 2px dotted white;
+    background-image: linear-gradient(to right,rgb(129, 53, 192), rgb(208, 52, 208), rgb(235, 177, 71));
+}
+.footer {
+    font-size: 16px;
+    color: dimgray;
+    padding: 3px;
+    text-decoration: none;
+}
+div.Enroll {
+    border: 2px dotted white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 7px;
+    z-index: -1;
+}
+.Enroll_btn {
+    background-image: linear-gradient(to right, rgb(63, 63, 206), rgb(154, 35, 154), rgb(215, 154, 40));
+    padding: 4px;
+    width: 160px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px dotted white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+::-webkit-scrollbar{
+    overflow-y: hidden;
+}
